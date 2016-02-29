@@ -3,6 +3,9 @@ body {
   font-family: arial,sans-serif;
   text-align: center;
   width: 100%;
+  margin: 0 auto;
+  min-width: 980px;
+  height: 100%;
 }
 ul {
   list-style-type: none;
@@ -66,6 +69,8 @@ input[type="search"]{
   border: #D9D9D9 1px solid;
   width: 30%;
   height: 40px;
+  position: absolute;
+  right: 35%;
 }
 input[type="search"]:hover{
   border: #BFBFBF 1px solid;
@@ -89,3 +94,25 @@ input[type="button"]:hover{
   color: black;
   box-shadow: 1px black;
 }
+.footer{
+  bottom: 0;
+  height: 35px;
+  position: absolute;
+  width: 100%;
+  display: block;
+  border-top: 1px solid #E4E4E4;
+  background-color: #F2F2F2;
+}
+.footer li, a{
+  color: #916666;
+  padding: 5px;
+  margin-right: 8px;
+  font-size: 10pt;
+}
+#footer-ads{
+  float:left;
+}
+#footer-term{
+  float:right;
+}
+
